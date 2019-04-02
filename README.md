@@ -1,3 +1,7 @@
+## POINTS: 1.5
+## KEY: Great Job overall. For the update, you just needed to look up the animal first before updating with the data received in the request
+
+
 # Mongo/Mongoose Graded Classwork
 
 ### Exercise 1: Create a Web API for ZOO Animals

@@ -34,6 +34,7 @@ router.get('/animal/get/:id', (req, res) => {
 });
 /*Is suppose to update an entry but i can't quite figure it out*/
 router.get('/animal/update/:id/:type/:description', (req, res) => {
+    // KEY: You just needed to look up the animal first before updating with the data received in the request
    ZooAnimal.updateOne({animal_type: req.params.type}, {animal_description: req.params.description}, (error, results) => {
        if(error){
            res.send(error)
